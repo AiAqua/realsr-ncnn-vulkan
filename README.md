@@ -46,7 +46,7 @@ Usage: realsr-ncnn-vulkan -i infile -o outfile [options]...
   -v                   verbose output
   -i input-path        input image path (jpg/png/webp) or directory
   -o output-path       output image path (jpg/png/webp) or directory
-  -s scale             upscale ratio (4, default=4)
+  -s scale             upscale ratio (default=4)
   -t tile-size         tile size (>=32/0=auto, default=0) can be 0,0,0 for multi-gpu
   -m model-path        realsr model path (default=models-DF2K_JPEG)
   -g gpu-id            gpu device to use (-1=cpu, default=0) can be 0,1,2 for multi-gpu
